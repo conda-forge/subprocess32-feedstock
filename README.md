@@ -11,6 +11,18 @@ Summary: A backport of the subprocess module from Python 3.2/3.3 for use on 2.x.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/subprocess32-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/subprocess32-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/subprocess32-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/subprocess32-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/subprocess32-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/subprocess32-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/subprocess32/badges/version.svg)](https://anaconda.org/conda-forge/subprocess32)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/subprocess32/badges/downloads.svg)](https://anaconda.org/conda-forge/subprocess32)
+
 Installing subprocess32
 =======================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/subprocess32-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/subprocess32-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/subprocess32-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/subprocess32-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/subprocess32-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/subprocess32-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/subprocess32/badges/version.svg)](https://anaconda.org/conda-forge/subprocess32)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/subprocess32/badges/downloads.svg)](https://anaconda.org/conda-forge/subprocess32)
 
 
 Updating subprocess32-feedstock
