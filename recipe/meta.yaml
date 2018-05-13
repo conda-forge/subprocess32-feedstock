@@ -1,33 +1,33 @@
 {% set version = "3.5.0" %}
 
 package:
-    name: subprocess32
-    version: {{ version }}
+  name: subprocess32
+  version: {{ version }}
 
 source:
-    fn: subprocess32-{{ version }}.tar.gz
-    url: https://pypi.io/packages/source/s/subprocess32/subprocess32-{{ version }}.tar.gz
-    md5: b3df2297c0395471d8211b001445630c
+  url: https://pypi.io/packages/source/s/subprocess32/subprocess32-{{ version }}.tar.gz
+  sha256: a24bac119f23fac0e53a3707b5539b214350ddd4d7d49c87d5f3be297ca1607a
 
 build:
-    number: 0
-    skip: True  # [not py2k]
-    script: python setup.py install
+  number: 0
+  skip: True  # [not py2k]
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
-    build:
-        - python
-    run:
-        - python
+  build:
+    - python
+    - pip
+  run:
+    - python
 
 test:
-    imports:
-        - subprocess32
+  imports:
+    - subprocess32
 
 about:
-    home: https://github.com/google/python-subprocess32
-    license: PSF 2
-    summary: 'A backport of the subprocess module from Python 3.2/3.3 for use on 2.x.'
+  home: https://github.com/google/python-subprocess32
+  license: PSF 2
+  summary: 'A backport of the subprocess module from Python 3.2/3.3 for use on 2.x.'
 
 extra:
   recipe-maintainers:
