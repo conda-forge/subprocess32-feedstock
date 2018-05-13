@@ -3,7 +3,7 @@ About subprocess32
 
 Home: https://github.com/google/python-subprocess32
 
-Package license: Python Software Foundation License
+Package license: PSF 2
 
 Feedstock license: BSD 3-Clause
 
@@ -14,14 +14,16 @@ Summary: A backport of the subprocess module from Python 3.2/3.3 for use on 2.x.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/subprocess32-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/subprocess32-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/subprocess32-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/subprocess32-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/subprocess32-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/subprocess32-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/subprocess32-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/subprocess32-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/subprocess32-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/subprocess32-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/subprocess32-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/subprocess32-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/subprocess32/badges/version.svg)](https://anaconda.org/conda-forge/subprocess32)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/subprocess32/badges/downloads.svg)](https://anaconda.org/conda-forge/subprocess32)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-subprocess32-green.svg)](https://anaconda.org/conda-forge/subprocess32) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/subprocess32.svg)](https://anaconda.org/conda-forge/subprocess32) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/subprocess32.svg)](https://anaconda.org/conda-forge/subprocess32) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/subprocess32.svg)](https://anaconda.org/conda-forge/subprocess32) |
 
 Installing subprocess32
 =======================
@@ -66,6 +68,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
