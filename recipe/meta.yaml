@@ -1,4 +1,4 @@
-{% set version = "3.5.0" %}
+{% set version = "3.5.1" %}
 
 package:
   name: subprocess32
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/subprocess32/subprocess32-{{ version }}.tar.gz
-  sha256: a24bac119f23fac0e53a3707b5539b214350ddd4d7d49c87d5f3be297ca1607a
+  sha256: 18ece9f877eca0c2521ed99a40a3a14af230c71f006d00cd0b2d6a6ddd1af171
 
 build:
   number: 0
