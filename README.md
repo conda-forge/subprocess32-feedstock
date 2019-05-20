@@ -3,11 +3,11 @@ About subprocess32
 
 Home: https://github.com/google/python-subprocess32
 
-Package license: PSF 2
+Package license: Python-2.0
 
 Feedstock license: BSD 3-Clause
 
-Summary: A backport of the subprocess module from Python 3.2/3.3 for use on 2.x.
+Summary: A backport of the subprocess module from Python 3.2/3.3 for use on 2.x
 
 
 
