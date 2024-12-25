@@ -5,22 +5,24 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/s/subprocess32/subprocess32-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/s/subprocess32/subprocess32-{{ version }}.tar.gz
   sha256: eb2937c80497978d181efa1b839ec2d9622cf9600a039a79d0e108d1f9aec79d
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
-    - python >=3
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - subprocess32
 
